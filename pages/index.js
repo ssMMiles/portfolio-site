@@ -1,65 +1,30 @@
-import Head from 'next/head'
+import Meta from '../components/Meta.js'
+import Background from '../components/Background.js'
+
+import { SocialIcon } from 'react-social-icons';
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+    <div className={styles.Home}>
+      <Meta
+        title="Miles Moonlove | Software Engineer"
+        desc="Full-stack software engineer specializing in building resilient and scalable backend services."
+        canonical="https://milesmoonlove.com"
+      />
+      <Background />
+      <header className={styles.Home_desc}>
+        <h3>
+          This site is under construction. Please check back soon.
+        </h3>
+        <div className={styles.social_links}>
+          <SocialIcon className={styles.social_icon} rel="noopener noreferrer" target="_blank" url="https://twitter.com/ssMMiles" bgColor='#212121'/>
+          <SocialIcon className={styles.social_icon} rel="noopener noreferrer" target="_blank" url="https://www.linkedin.com/in/miles-moonlove-427769164" bgColor='#212121'/>
+          <SocialIcon className={styles.social_icon} rel="noopener noreferrer" target="_blank" url="https://github.com/sMMiles" bgColor='#212121'/>
+          <SocialIcon className={styles.social_icon} rel="noopener noreferrer" target="_blank" url="mailto:business@milesmoonlove.com" bgColor='#212121'/>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+      </header>
     </div>
   )
 }
