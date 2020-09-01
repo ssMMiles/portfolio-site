@@ -13,7 +13,7 @@ export default function Home() {
         desc="Full-stack software engineer specializing in building resilient and scalable backend services."
         canonical="https://milesmoonlove.com"
       />
-      <Background />
+      <Background/>
       <header className={styles.Home_desc}>
         <h3>
           This site is under construction. Please check back soon.
@@ -21,7 +21,7 @@ export default function Home() {
         <div className={styles.social_links}>
           <SocialIcon className={styles.social_icon} rel="noopener noreferrer" target="_blank" url="https://twitter.com/ssMMiles" bgColor='#212121'/>
           <SocialIcon className={styles.social_icon} rel="noopener noreferrer" target="_blank" url="https://www.linkedin.com/in/miles-moonlove-427769164" bgColor='#212121'/>
-          <SocialIcon className={styles.social_icon} rel="noopener noreferrer" target="_blank" url="https://github.com/sMMiles" bgColor='#212121'/>
+          <SocialIcon className={styles.social_icon} rel="noopener noreferrer" target="_blank" url="https://github.com/ssMMiles" bgColor='#212121'/>
           <SocialIcon className={styles.social_icon} rel="noopener noreferrer" target="_blank" url="mailto:business@milesmoonlove.com" bgColor='#212121'/>
         </div>
       </header>
