@@ -1,0 +1,13 @@
+.footer {
+    width: 100%;
+    height: 12.5vh;
+
+    background-color: #2C2F33;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social_icon {
+    margin: auto 1vw;
+}

@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 
 import Gradient from './Gradient.js';
-import styles from '../styles/Background.module.css'
+import styles from '../styles/components/Background.module.css'
 
 export default function Background() {
     const ref = useRef();
