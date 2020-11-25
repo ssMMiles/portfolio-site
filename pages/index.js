@@ -10,7 +10,7 @@ export default function Home() {
     <div className={styles.Home}>
       <Meta
         title="Miles Moonlove | Software Engineer"
-        desc="Full-stack software engineer specializing in building resilient and scalable backend services."
+        desc="Full-stack software engineer."
         canonical="https://milesmoonlove.com"
       />
       <Background/>
